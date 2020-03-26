@@ -26,3 +26,37 @@ a.menu-toggle {
     background: palegoldenrod;
 
 }
+
+.intro {
+    float: right;
+    color: white;
+    font-family: 'Noto Sans TC', sans-serif, Arial, Verdana;
+
+}
+
+.btnIntro {
+
+    text-align: center;
+    margin: 30px;
+    background-color: palegoldenrod;
+}
+
+a.btn-primary {
+    background-color: palegoldenrod !important;
+    border-color: antiquewhite !important;
+    color: #444 !important;
+}
+
+a.btn-primary:hover {
+    background-color: burlywood !important;
+    color: antiquewhite !important;
+    border: 1px solid #444 !important;
+    text-shadow: 2px #eee !important;
+}
+
+a.btn-primary:focus {
+    background-color: burlywood !important;
+    color: antiquewhite !important;
+    border: 1px solid #444 !important;
+    text-shadow: 2px #eee !important;
+}
