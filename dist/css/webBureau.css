@@ -4,6 +4,35 @@
 
 /*Kleuren hamburgermenu*/
 
+.portfolio-item:hover .caption {
+    background-color: palegoldenrod !important;
+    -webkit-clip-path: inset(2rem);
+    clip-path: inset(2rem);
+
+}
+
+.corned {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.borderRight {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.cardcallout {
+    width: 400px;
+    height: 220px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px #eee;
+    color: palegoldenrod;
+}
+
+.shadowText {
+    text-shadow: 4px 2px #222;
+}
 
 .sidebar-nav li.sidebar-nav-item a {
     display: block;
