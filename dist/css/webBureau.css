@@ -4,6 +4,12 @@
 
 /*Kleuren hamburgermenu*/
 
+
+
+.position {
+    float: left;
+}
+
 .portfolio-item:hover .caption {
     background-color: palegoldenrod !important;
     -webkit-clip-path: inset(2rem);

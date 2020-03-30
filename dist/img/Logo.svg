@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2100" height="1500" viewBox="0 0 2100 1500">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d282ca;
+        filter: url(#filter);
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-width: 4.167px;
+        stroke-dasharray: 0.001 8.333;
+      }
+
+      .cls-3 {
+        font-size: 100px;
+        font-family: "Bauhaus 93";
+        text-transform: uppercase;
+      }
+    </style>
+    <filter id="filter" x="728" y="414" width="577" height="535" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="24" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="4.359"/>
+      <feFlood result="flood" flood-opacity="0.35"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g style="fill: #d282ca; filter: url(#filter)">
+    <ellipse id="Ovaal_1" data-name="Ovaal 1" class="cls-1" cx="1016" cy="660" rx="270" ry="246" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use xlink:href="#Ovaal_1" style="stroke: #000; filter: none; fill: none"/>
+  <ellipse id="Ovaal_2" data-name="Ovaal 2" class="cls-2" cx="1016" cy="660.5" rx="123" ry="102.5"/>
+  <text id="codedesign_" data-name="codedesign " class="cls-3" x="722.001" y="1117.001">codedesign</text>
+</svg>
