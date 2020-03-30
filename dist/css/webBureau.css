@@ -5,6 +5,10 @@
 /*Kleuren hamburgermenu*/
 
 
+p {
+    font-family: 'Comic Neue', cursive !important;
+
+}
 
 .position {
     float: left;
