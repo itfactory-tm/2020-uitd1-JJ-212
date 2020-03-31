@@ -1,7 +1,88 @@
 /* in stylish-portfolio.min.css wijzig je NIETS */
 /* schrijf in dit bestand je eigen stijlregels om opmaak aan te passen */
 
-<<<<<<< HEAD
+steve-sectie4-portfolio
+ HEAD
+
+
+/*Kleuren hamburgermenu*/
+
+
+.sidebar-nav li.sidebar-nav-item a {
+    display: block;
+    text-decoration: none;
+    color: palegoldenrod;
+    padding: 15px
+}
+
+#sidebar-wrapper {
+    background: #444444;
+    background-image: linear-gradient(#555, #222);
+
+}
+
+.fa-bars {
+    color: #321230;
+}
+
+a.gradient {
+    background-image: linear-gradient(#777, #111) !important;
+}
+
+a.gradient:hover {
+    background-image: linear-gradient(#aaa, #eee) !important;
+    color: black !important;
+    border: 2px solid #222;
+
+
+}
+
+a.menu-toggle {
+    background: palegoldenrod;
+
+}
+
+ steve-services-aanmaken
+
+section.bg-primary {
+    background-image: linear-gradient(#222, #888);
+}
+
+.intro {
+    float: right;
+    color: white;
+    font-family: 'Noto Sans TC', sans-serif, Arial, Verdana;
+
+}
+
+.btnIntro {
+
+    text-align: center;
+    margin: 30px;
+    background-color: palegoldenrod;
+}
+
+a.btn-primary {
+    background-color: palegoldenrod !important;
+    border-color: antiquewhite !important;
+    color: #444 !important;
+}
+
+a.btn-primary:hover {
+    background-color: burlywood !important;
+    color: antiquewhite !important;
+    border: 1px solid #444 !important;
+    text-shadow: 2px #eee !important;
+}
+
+a.btn-primary:focus {
+    background-color: burlywood !important;
+    color: antiquewhite !important;
+    border: 1px solid #444 !important;
+    text-shadow: 2px #eee !important;
+}
+
+ master
 * {
     font-family: verdana, avenir sans-serif;
 }
@@ -14,9 +95,10 @@ h1 {
     padding-top: 300px;
     background:darkgrey;
     margin-top: -200px;}
+ steve-sectie4-portfolio
 
 
-=======
+
 
 /*Kleuren hamburgermenu*/
 
@@ -83,7 +165,7 @@ a.menu-toggle {
     background: palegoldenrod;
 
 }
-<<<<<<< HEAD
+ HEAD
 
 
 section.bg-primary {
@@ -123,6 +205,4 @@ a.btn-primary:focus {
     border: 1px solid #444 !important;
     text-shadow: 2px #eee !important;
 }
-=======
->>>>>>> steve-hamburger-menu-aanpassen
->>>>>>> conflict-x
+
