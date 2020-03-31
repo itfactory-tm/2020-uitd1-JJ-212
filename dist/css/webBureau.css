@@ -27,6 +27,7 @@ a.menu-toggle {
 
 }
 
+ steve-profiel-aangemaakt
 .intro {
     float: right;
     color: white;
@@ -60,3 +61,17 @@ a.btn-primary:focus {
     border: 1px solid #444 !important;
     text-shadow: 2px #eee !important;
 }
+
+* {
+    font-family: verdana, avenir sans-serif;
+}
+h1 {
+    font-weight: 400;
+    font-size: 3em;
+    text-align: center;}
+
+.footer{
+    padding-top: 300px;
+    background:darkgrey;
+    margin-top: -200px;}
+ master
