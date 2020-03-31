@@ -22,12 +22,33 @@
     color: #321230;
 }
 
+a.gradient {
+    background-image: linear-gradient(#777, #111) !important;
+}
+
+a.gradient:hover {
+    background-image: linear-gradient(#aaa, #eee) !important;
+    color: black !important;
+    border: 2px solid #222;
+
+
+}
+
 a.menu-toggle {
     background: palegoldenrod;
 
 }
 
  steve-profiel-aangemaakt
+ steve-profiel-aangemaakt
+
+ steve-services-aanmaken
+
+section.bg-primary {
+    background-image: linear-gradient(#222, #888);
+}
+
+ master
 .intro {
     float: right;
     color: white;
