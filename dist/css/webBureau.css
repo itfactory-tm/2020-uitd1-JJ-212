@@ -1,6 +1,32 @@
 /* in stylish-portfolio.min.css wijzig je NIETS */
 /* schrijf in dit bestand je eigen stijlregels om opmaak aan te passen */
 
+
+/*Kleuren hamburgermenu*/
+
+
+.sidebar-nav li.sidebar-nav-item a {
+    display: block;
+    text-decoration: none;
+    color: palegoldenrod;
+    padding: 15px
+}
+
+#sidebar-wrapper {
+    background: #444444;
+    background-image: linear-gradient(#555, #222);
+
+}
+
+.fa-bars {
+    color: #321230;
+}
+
+a.menu-toggle {
+    background: palegoldenrod;
+
+}
+
 * {
     font-family: verdana, avenir sans-serif;
 }
@@ -13,5 +39,3 @@ h1 {
     padding-top: 300px;
     background:darkgrey;
     margin-top: -200px;}
-
-
