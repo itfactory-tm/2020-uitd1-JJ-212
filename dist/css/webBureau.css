@@ -1,6 +1,22 @@
 /* in stylish-portfolio.min.css wijzig je NIETS */
 /* schrijf in dit bestand je eigen stijlregels om opmaak aan te passen */
 
+<<<<<<< HEAD
+* {
+    font-family: verdana, avenir sans-serif;
+}
+h1 {
+    font-weight: 400;
+    font-size: 3em;
+    text-align: center;}
+
+.footer{
+    padding-top: 300px;
+    background:darkgrey;
+    margin-top: -200px;}
+
+
+=======
 
 /*Kleuren hamburgermenu*/
 
@@ -67,6 +83,7 @@ a.menu-toggle {
     background: palegoldenrod;
 
 }
+<<<<<<< HEAD
 
 
 section.bg-primary {
@@ -106,3 +123,6 @@ a.btn-primary:focus {
     border: 1px solid #444 !important;
     text-shadow: 2px #eee !important;
 }
+=======
+>>>>>>> steve-hamburger-menu-aanpassen
+>>>>>>> conflict-x
