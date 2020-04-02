@@ -2,8 +2,42 @@
 /* schrijf in dit bestand je eigen stijlregels om opmaak aan te passen */
 
 
-/*Kleuren hamburgermenu*/
+.borderForm {
+    border-radius: 12px;
 
+}
+
+.awesomeBackground {
+    background-image: url(../img/email-pattern.png) !important;
+}
+
+.content-section-heading {
+    width: 400px;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 25px;
+    box-shadow: 4px 4px #454;
+    background-color: wheat;
+    color: white;
+}
+
+.btn-submit {
+    background-color: palegoldenrod;
+    color: whitesmoke;
+    font-size: 20px;
+    width: 140px;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 4px #eee;
+
+}
+
+.btn-submit:hover {
+    text-shadow: 4px #aaa;
+    background-image: linear-gradient(palegoldenrod, #fff);
+
+}
 
 
 .position {
