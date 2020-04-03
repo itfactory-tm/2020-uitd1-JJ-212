@@ -71,8 +71,7 @@
             <div class="row">
 
                 <div class="col-md-6 position pr-5 text-center">
-                    <img class="z pr-5 text-center mx-auto" src="img/Logo.svg" alt="" width="
-                    700px" height="350px">
+
                 </div>
                 <div class="col-md-6">
                     <h1 class="mb-1 intro"> Webbureau CodeDesign</h1>
@@ -279,22 +278,21 @@ master
     </section>
 
     <!-- Contact -->
-    <section id="contact" class="content-section">
+    <section id="contact" class="content-section awesomeBackground">
         <div class="container text-center">
-            <div class="content-section-heading text-center">
-                <h3 class="text-secondary mb-0">Contact</h3>
-                <h2 class="mb-5">Contact us</h2>
+            <div class="content-section-heading text-center mb-2">
+                <h2 class="mb-5">Contacteer ons</h2>
             </div>
             <p>Heb jij vragen,interessen of suggesties? Aarzel dan niet om ons te contacteren</p>
             <form action="contact.php" method="post">
                 <p><label for="naam">naam<sup>*</sup>
-                        <input type="text" id="naam" size="15" maxlength="30" name="gebruikersnaam" placeholder="Typ hier uw naam" autofocus required></label></p>
-                <p><label for="email">Email <sup>*</sup> <input type="email" id="email" name="email" placeholder="Typ hier uw email" required></label></p>
+                        <input class="borderForm" type="text" id="naam" size="15" maxlength="30" name="gebruikersnaam" placeholder="Typ hier uw naam" autofocus required></label></p>
+                <p><label for="email">Email <sup>*</sup> <input class="borderForm" type="email" id="email" name="email" placeholder="Typ hier uw email" required></label></p>
                 <label for="number">Hoe rate u onze website op 10?</label>
-                <input type="number" id="number" name="number" min="0" max="10" step="1" value="5">
+                <input class="borderForm" type="number" id="number" name="number" min="0" max="10" step="1" value="5">
                 <p><label for="opmerking">Graag hier uw opmerking:</label></p>
-                <p><textarea name="feedback" id="opmerking" cols="30" rows="10" placeholder="Typ hier uw opmerking"></textarea></p>
-                <p><input type="submit" value="Versturen!"></p>
+                <p><textarea class="borderForm" name="feedback" id="opmerking" cols="30" rows="10" placeholder="Typ hier uw opmerking"></textarea></p>
+                <p><input class="borderForm btn btn-submit" type="submit" value="Versturen!"></p>
             </form>
         </div>
     </section>
@@ -320,6 +318,10 @@ master
                 </li>
             </ul>
             <p class="text-muted small mb-0">Copyright &copy; CodeDesign 2020</p>
+        </div>
+        <!-- Het SVG LOGO -->
+        <div class="text-center">
+            <img src="img/Logo.svg" alt="Svg Logo" width="400px" height="400px">
         </div>
     </footer>
 

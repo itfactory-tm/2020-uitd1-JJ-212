@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/css/webBureau.css">
+    <link rel="stylesheet" href="dist/css/stylish-portfolio.min.css">
+
     <title>Formulierverwerking</title>
 </head>
 
@@ -15,26 +18,17 @@
     <?php
 if (isset($_POST["gebruikersnaam"]) && $_POST["gebruikersnaam"] != "") {
     echo "<p> Ingevuld bij naam: " . $_POST["gebruikersnaam"] . "</p>\n";
-} else {
-    echo "<p> Gebruikersnaam werd niet ingevuld </p>\n";
 }
 
 if (isset($_POST["email"]) && $_POST["email"] != "") {
     echo "<p> Ingevuld bij email: " . $_POST["email"] . "</p>\n";
-} else {
-    echo "<p> email werd niet ingevuld </p>\n";
 }
-
 if (isset($_POST["number"]) && $_POST["number"] != "") {
     echo "<p> Ingevuld bij waardering " . $_POST["number"] . "</p>\n";
-} else {
-    echo "<p> waardering werd niet geselecteerd </p>\n";
 }
 if (isset($_POST["opmerking"]) && $_POST["opmerking"] != "") {
     echo "<p> Ingevuld bij opmerking " . $_POST["opmerking"] . "</p>\n";
-} else {
-    echo "<p> opmerking werd niet ingevuld </p>\n";
-}
+} 
 
 
 ?>
