@@ -1,16 +1,40 @@
 /* in stylish-portfolio.min.css wijzig je NIETS */
 /* schrijf in dit bestand je eigen stijlregels om opmaak aan te passen */
 
-
+/*Formulier */
 .borderForm {
     border-radius: 12px;
 
 }
 
+/*Contact Huisstijlen*/
+.headingContact {
+    font-family: 'Noto Sans TC', sans-serif, Arial, Verdana;
+    font-weight: bold;
+    text-align: center;
+    color: palegoldenrod;
+    margin: 10px;
+}
+
+.card {
+    width: 400px;
+    height: auto;
+    background-image: linear-gradient(#aaa, #444);
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px palegoldenrod;
+}
+
+.textContact {
+    font-family: 'Noto Sans TC', sans-serif, Arial, Verdana;
+
+}
+
+
 .awesomeBackground {
     background-image: url(../img/email-pattern.png) !important;
 }
 
+/*Headings*/
 .content-section-heading {
     width: 400px;
     height: auto;
@@ -22,6 +46,7 @@
     color: white;
 }
 
+/*Submit knop*/
 .btn-submit {
     background-color: palegoldenrod;
     color: whitesmoke;
@@ -45,6 +70,7 @@
     float: left;
 }
 
+/*Items portfolio*/
 .portfolio-item:hover .caption {
     background-color: palegoldenrod !important;
     -webkit-clip-path: inset(2rem);
