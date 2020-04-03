@@ -14,6 +14,7 @@
     <h1>Contactverwerking</h1>
     <p>Dank u wel om contact op te nemen met CodeDesign. Wij lezen en beantwoorden zo spoedig mogenlijk al jullie berichten.</p>
     Met vriendelijke groeten het CodeDesign team
+    <a href="index.html">Home</a>
     <hr>
     <?php
 if (isset($_POST["gebruikersnaam"]) && $_POST["gebruikersnaam"] != "") {
