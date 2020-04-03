@@ -76,7 +76,7 @@
     <br>
     <p>Klik op volgende link om terug naar de homepagina te gaan </p>
     <div class="card">
-        <a class="center btn" href="uitdaging1.html">Home</a>
+        <a class="center btn" href="index.html">Home</a>
     </div>
     <hr width="50%">
     <?php
